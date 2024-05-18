@@ -1,0 +1,15 @@
+#Sneha p {
+    color: green;
+}
+
+/** div[id="Sneha"] p {
+     color: green;
+}
+
+div p {
+    color:green;
+}
+
+div > p {
+    color:green;
+}  **/

@@ -1,0 +1,43 @@
+.Container {
+   /* width: 1100px;*/
+    height: 100vh;
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 10px;
+}
+
+.Container div {
+    background-color: pink;
+    font-size: 1.5rem;
+}
+
+.Shukla {
+   grid-column: 1/ span 12;
+}
+
+.Chai {
+    grid-column: 4/span 6;
+}
+
+.Coffe {
+    grid-row: 2/span 11;
+    grid-column: 1/ span 3;
+}
+
+.Chhiki{
+    grid-row: 3/span 11;
+    grid-column: 4/span 6;
+}
+
+.Soup {
+    grid-column: 10/span 3;
+    grid-row: 2/span 11;
+}
+
+.oats {
+    grid-column: 1/span 12;
+}

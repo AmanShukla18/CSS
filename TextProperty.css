@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    text-decoration: red wavy underline;
+    line-height: 2.5;
+    font-family: avant garde,didot,sans-serif;
+}
+
+p{
+    font-weight: 600;
+    text-decoration: double underline;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    text-decoration: black dotted overline;
+    letter-spacing:normal;
+}

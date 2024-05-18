@@ -1,0 +1,51 @@
+.Nya{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    animation-name: widthAnimate;
+    animation-duration: 3     s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+   /* animation: widthAnimate 2s ease-in 0s infinte normal ; */
+}
+
+@keyframes widthAnimate{
+    0%{
+        width: 10px;
+        font-size: 20px;
+        background-color: green;
+    }
+    50%{
+        width: 400px;
+        font-size:40px;
+        background-color: blue;
+        border-radius: 15px;
+    }
+    100%{
+        width: 600px;
+        font-size:60px;
+        background-color: pink;
+        border-radius: 30px;  
+    }
+}
+
+/*@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
+
+@keyframes colorAnimate {
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+}*/
